@@ -2,6 +2,10 @@
 🔧 Injects babel plugins into [create-react-app](https://github.com/facebook/create-react-app) without ejecting.
 
 ## Getting started
+### Install the module
+Run `yarn add --dev inject-babel-plugins-cra`.
+
+### Usage example
 - add the babel plugins you need to your project. e.g: `yarn add babel-plugin-relay babel-plugin-react-css-modules`.
 - create a js script that injects the plugins to your app, let's call it `init.js`. e.g:
   ```js

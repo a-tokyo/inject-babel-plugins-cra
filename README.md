@@ -39,6 +39,7 @@
       babelPresetFilePath?: string,
       stringMatcher?: string,
     } = {
+      /** For older version of CRA*/
       babelPresetFilePath: './node_modules/babel-preset-react-app/index.js',
       stringMatcher: 'const plugins = [',
     }

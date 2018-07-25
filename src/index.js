@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 const defaultBabelPresetRAFilePath: string =
-  './node_modules/babel-preset-react-app/index.js';
+  './node_modules/babel-preset-react-app/create.js';
 
 const defaultBabelPresetStringMatcher: string = 'const plugins = [';
 

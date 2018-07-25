@@ -1,6 +1,10 @@
 # inject-babel-plugins-cra
 🔧 Injects babel plugins into [create-react-app](https://github.com/facebook/create-react-app) without ejecting.
 
+[![npm](https://img.shields.io/npm/v/inject-babel-plugins-cra.svg)](https://www.npmjs.com/package/inject-babel-plugins-cra)
+[![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)](https://circleci.com/gh/A-Tokyo/inject-babel-plugins-cra/edit#badges)
+[![npm](https://img.shields.io/npm/l/inject-babel-plugins-cra.svg)](https://github.com/A-Tokyo/inject-babel-plugins-cra/blob/master/LICENSE)
+
 ## Getting started
 ### Install the module
 Run `yarn add --dev inject-babel-plugins-cra`.
@@ -50,6 +54,7 @@ Run `yarn add --dev inject-babel-plugins-cra`.
       /* The string to match against before injecting the plugins */
       stringMatcher?: string,
     } = {
+      /** For older version of CRA*/
       babelPresetFilePath: './node_modules/babel-preset-react-app/index.js',
       stringMatcher: 'const plugins = [',
     }
